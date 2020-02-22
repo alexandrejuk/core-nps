@@ -2,8 +2,15 @@ const equipmentsMock = require('../mocks/equipments')
 
 const create = (req, res, next) => {
   res.json({
+    description: 'Maquina de café premium',
+    deep: 2400,
+    issues: [],
     name: 'LIONESS',
-  })
+    height: 100,
+    voltage: '220v~/110v~',
+    width: 330,
+    weight: 1.2,
+  },)
 }
 
 const update = (req, res, next) => {

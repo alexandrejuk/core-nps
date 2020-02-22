@@ -10,6 +10,8 @@ const update = (req, res, next) => {
   res.json({
     id: 1,
     name: 'off 0',
+    problem: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto sequi totam corporis cum?',
+    resolve: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto sequi totam corporis cum.',
   })
 }
 
